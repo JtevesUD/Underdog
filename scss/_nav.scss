@@ -1,3 +1,5 @@
+@import 'variables';
+
 a{
     text-decoration: none;
 }
@@ -37,7 +39,7 @@ header::before{
 
 
 .sidebar{
-    background-color: #1f253d;
+    background: url(/images/Underdog_menubg.png) center center no-repeat;
     position: fixed;
     top: 0;
     left: 0;
@@ -48,7 +50,8 @@ header::before{
     padding: 0;
     z-index: 1000;
     transform: translateX(-100%);
-    transition: transform .6s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    transition: transform .6s linear;
+    background-color: white;
 }
 
 .nav-list{
@@ -71,20 +74,20 @@ margin: auto;
 
 .nav-link{
     display: block;
-    font-size: 1.3rem;
-    color: rgba(225,225,225,.4);
+    font-size: 4.3rem;
+    color: black;
     text-transform: uppercase;
-    line-height: 8rem;
+    line-height: 15rem;
     letter-spacing: 3px;
     transition: color .6s;
 }
 
 .nav-link:hover{
-    color: rgba(225,225,225,.8);
+    color: rgba(131, 131, 131, 0.8);
 }
 
 .nav-link.current{
-    color: #fff;
+    color: $underdog-gold ;
 }
 
 .nav-link i{
@@ -93,12 +96,12 @@ margin: auto;
 }
 
 .social-media{
-display: flex;
-justify-content: center;
-width: 100%;
-padding: 25px;
-position: absolute;
-bottom: 0px;
+    display: flex;
+    margin: 0 auto;
+    width: 25%;
+    position: absolute;
+    bottom: 30px;
+    left: 38%;
 }
 
 .icon-link{
@@ -109,7 +112,7 @@ transition: background-color .6s;
 }
 
 .icon-link:hover{
-    background-color: black;
+    color: gray;
 }
 
 .icon-link i{
@@ -123,7 +126,6 @@ main{
 .zoom-content{
     transform-style: preserve-3d;
     transition: transform .6s cubic-bezier(0.95, 0.05, 0.795, 0.035);
-    
 }
 
 section{
@@ -157,21 +159,45 @@ header .active::before{
 
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 375px){
     .nav-link{
-        line-height: 5rem;
+        display: block;
+font-size: 2.3rem;
+color: black;
+text-transform: uppercase;
+line-height: 15rem;
+letter-spacing: 3px;
+transition: color .6s;
     }
 
     .hamburger{
         top: 1.5rem;
         right: 1.5rem;
     }
-}
 
-@media screen and (max-width: 450px){
+    .social-media{
+        width: auto;
+        
+    }
+    .nav-list{
+        line-height: 30px;
+    }
+    .nav-item{
+        line-height: 1.5px;
+    }
+
+    .social-media{
+        display: flex;
+margin: 0 auto;
+width: 100%;
+position: absolute;
+bottom: 30px;
+left: 0;
+    }
     .sidebar{
         width:100%;
     }
 }
+
 
 
