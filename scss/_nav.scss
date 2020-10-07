@@ -6,9 +6,9 @@ a{
 
 .hamburger{
     position: fixed;
-    top:2rem;
-    right:3rem;
-    padding:.5rem;
+    top: 6rem;
+    right: 9rem;
+    padding: .5rem;
     cursor:pointer;
     z-index:2000;
 }
@@ -40,6 +40,7 @@ header::before{
 
 .sidebar{
     background: url(/images/Underdog_menubg.png) center center no-repeat;
+    background-size: auto;
     position: fixed;
     top: 0;
     left: 0;
@@ -128,13 +129,7 @@ main{
     transition: transform .6s cubic-bezier(0.95, 0.05, 0.795, 0.035);
 }
 
-section{
-    width:100%;
-    height: 100vh;
-    background-color: grey;
-    background-image: url(../images/BG.png);
-    
-}
+
 
 .active .times{
     display: block;
