@@ -16,7 +16,7 @@ you can view other pages through that and also drag the width of window to view 
 
 ### Installing
 
-Clone repo > https://github.com/jtev23/Teves_J_Midterm
+Clone repo 
 
 
 ## Authors
