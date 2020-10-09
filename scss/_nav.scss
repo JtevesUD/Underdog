@@ -120,6 +120,10 @@ header::before {
     color: rgba(255, 255, 255, .8);
 }
 
+.icon-link i img {
+    width: 42px;
+}
+
 main {
     perspective: 100rem;
 }
