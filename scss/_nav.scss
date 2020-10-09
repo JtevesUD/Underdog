@@ -40,7 +40,6 @@ header::before {
 
 .sidebar {
     background: url(/images/Underdog_menubg.png) center center no-repeat;
-    background-size: auto;
     position: fixed;
     top: 0;
     left: 0;
@@ -76,10 +75,10 @@ header::before {
 
 .nav-link {
     display: block;
-    font-size: 4.3rem;
+    font-size: 3.3rem;
     color: black;
     text-transform: uppercase;
-    line-height: 15rem;
+    line-height: 14rem;
     letter-spacing: 3px;
     transition: color .6s;
 }
@@ -203,6 +202,7 @@ header .active::before {
 
     .sidebar {
         width: 100%;
+
     }
 
     .icon-link {
