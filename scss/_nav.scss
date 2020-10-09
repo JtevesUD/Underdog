@@ -156,7 +156,7 @@ header .active::before {
 }
 
 /*IPAD*/
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .nav-link {
         display: block;
         font-size: 2.3rem;
@@ -224,7 +224,7 @@ header .active::before {
 
 
 /*Iphone*/
-@media only screen and (min-device-width : 350px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+@media screen and (min-device-width : 360px) and (max-device-width : 768px) {
     .nav-link {
         display: block;
         font-size: 2.3rem;
