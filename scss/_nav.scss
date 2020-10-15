@@ -39,7 +39,7 @@ header::before {
 
 
 .sidebar {
-    background: url(/images/Underdog_menubg.png) center center no-repeat;
+    background-image: url(../images/Underdog_menubg.png) no-repeat;
     position: fixed;
     top: 0;
     left: 0;
@@ -132,6 +132,10 @@ main {
     transform-style: preserve-3d;
     transition: transform .6s cubic-bezier(0.95, 0.05, 0.795, 0.035);
     height: 1000vh;
+    background: url(../images/mainbg.png) no-repeat;
+    background-position-y: 0%;
+    background-position-x: 100%;
+    background-size: 76vh;
 
 }
 
@@ -226,6 +230,16 @@ header .active::before {
         color: rgba(255, 255, 255, .8);
     }
 
+    .zoom-content {
+        transform-style: preserve-3d;
+        transition: transform .6s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+        height: 1000vh;
+        background: url(../images/bgmobile.png) no-repeat;
+        background-size: 171%;
+        background-position-x: 0%;
+        background-position-y: 1.2%;
+    }
+
 }
 
 
@@ -239,7 +253,6 @@ header .active::before {
         line-height: 10rem;
         letter-spacing: 3px;
         transition: color .6s;
-
     }
 
 
@@ -280,5 +293,17 @@ header .active::before {
     .sidebar {
         width: 100%;
     }
+
+    .zoom-content {
+        transform-style: preserve-3d;
+        transition: transform .6s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+        height: 1000vh;
+        background: url(../images/bgmobile.png) no-repeat;
+        background-size: 200%;
+        background-position-x: 10%;
+        background-position-y: 1.4%;
+    }
+
+
 
 }
