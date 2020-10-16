@@ -1,3 +1,7 @@
+.container {
+    height: 100vh;
+}
+
 .logo h1 {
     font-family: 'Libre Baskerville', serif;
     font-size: 20px;
@@ -25,6 +29,12 @@
 
 }
 
+.stripe {
+    position: absolute;
+    right: 102%;
+    top: 0%;
+}
+
 .text1 {
     display: flex;
     margin: auto;
@@ -33,20 +43,21 @@
     left: 15vw;
     flex-direction: column;
     line-height: 1;
+    font-family: 'Blinker', sans-serif;
 }
 
 .text1 h1 {
-    font-size: 35px;
+    font-size: 37px;
     text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 .text1 p {
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 22px;
+    margin-top: 15px;
     font-weight: 300;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 
@@ -56,7 +67,6 @@
     position: absolute;
     top: 9%;
     margin: auto;
-    left: 3.4%;
 }
 
 .logo-group {
@@ -71,7 +81,25 @@
     width: 8%;
     height: auto;
     margin: auto;
+    opacity: .8;
 }
+
+.logo-group :nth-child(3) {
+    width: 5.5%;
+}
+
+.logo-group :nth-child(4) {
+    width: 5.5%;
+}
+
+.logo-group :nth-child(5) {
+    width: 7%;
+}
+
+.logo-group :nth-child(6) {
+    width: 5.5%;
+}
+
 
 
 
@@ -99,19 +127,16 @@
     .text1 h1 {
         font-size: 35px;
         text-transform: uppercase;
-        font-weight: 500;
+        font-weight: 1000;
         font-family: 'Poppins', sans-serif;
     }
 
     .text1 p {
         font-size: 20px;
         margin-top: 10px;
-        font-weight: 300;
+        font-weight: 500;
         font-family: 'Poppins', sans-serif;
     }
-
-
-
 
     .logos {
         display: flex;
@@ -134,29 +159,42 @@
         height: auto;
         margin: auto;
     }
+
+    .logo-group :nth-child(3) {
+        width: 5.5%;
+    }
+
+    .logo-group :nth-child(4) {
+        width: 5.5%;
+    }
+
+    .logo-group :nth-child(5) {
+        width: 7%;
+    }
+
+    .logo-group :nth-child(6) {
+        width: 5.5%;
+    }
+
+    .mission {
+
+        margin-top: 0%;
+        height: 100vh;
+    }
 }
 
+//Ipad
 @media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    .logo h1 {
-        top: 4.5rem;
-        left: 3.5rem;
-        // display: none;
 
-    }
 
-    .splash {
-        width: 100%;
+
+
+
+
+    .mission {
+        border: dotted 1px black;
+        margin-top: 56%;
         height: 100vh;
-        background-image: url(../images/mainbg.png);
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: 56vh;
-
     }
-
-    .divider {
-        display: none;
-    }
-
 
 }

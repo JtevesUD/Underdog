@@ -1,0 +1,150 @@
+.mission {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.mission-text {
+    margin: auto;
+}
+
+
+.mission h1 {
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.mission-stripe {
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 150px;
+    margin-bottom: -120px;
+}
+
+.mission-stripe-mobile {
+    display: none;
+}
+
+.mission p {
+    text-align: center;
+    font-size: 26px;
+    margin: 80px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+
+.underdoglogo {
+    display: flex;
+    margin: 50px auto;
+
+}
+
+.awards {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.awards-images :nth-child(1) {
+    margin-left: 90px;
+}
+
+// Iphone
+@media screen and (min-device-width : 360px) and (max-device-width : 768px) {
+
+    .mission {
+        border: none;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .mission-text {
+        margin: 0 auto;
+    }
+
+
+
+    .mission-text h1 {
+        font-size: 18px;
+        margin: auto;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .mission-stripe-mobile {
+        margin: auto;
+        display: flex;
+    }
+
+    .mission-stripe {
+        display: none;
+    }
+
+
+
+    .mission-text p {
+        font-size: 12px;
+        letter-spacing: .5;
+        width: 90vw;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .underdoglogo {
+        margin-bottom: 0;
+        width: 10%;
+        padding-bottom: 20px;
+
+    }
+
+    .awards {
+        display: flex;
+        width: auto;
+        margin: auto;
+    }
+
+    .awards-images {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        justify-content: space-between;
+        margin: 0 auto;
+
+    }
+
+    .awards-images img {
+        width: 8%;
+        height: auto;
+        margin: auto;
+        opacity: .8;
+    }
+
+    .awards-images :nth-child(1) {
+        margin-left: auto;
+        width: 9%;
+    }
+
+    .awards-images :nth-child(2) {
+        width: 20%;
+    }
+
+    .awards-images :nth-child(3) {
+        width: 15%;
+    }
+
+    .awards-images :nth-child(4) {
+        width: 15%;
+    }
+
+    .awards-images :nth-child(5) {
+        width: 15%;
+    }
+}
+
+//Ipad

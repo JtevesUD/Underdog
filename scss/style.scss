@@ -1,6 +1,7 @@
 @import 'nav';
 @import 'variables';
 @import 'homepage';
+@import 'mission';
 
 *,
 *::before,
@@ -17,7 +18,9 @@ html {
 
     font-family: 'Questrial', sans-serif;
 
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Blinker', sans-serif;
 
     font-size: 10px;
+
+    height: 100%;
 }
