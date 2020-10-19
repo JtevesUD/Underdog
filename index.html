@@ -5,14 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Underdog</title>
+    <link href="css/glider.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="images/underdog_full.png"/>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Questrial&display=swap"
-        rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@200;400&display=swap" rel="stylesheet"> <header>
-
-    <div class="hamburger">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Questrial&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@200;400&display=swap" rel="stylesheet"> <header>
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    
+    
+    
+         <!-- MENU -->
+         <div class="hamburger">
         <i class="bars"><img src="images/Menu.png" alt="Menu Button"></i>
         <i class="times"><img src="images/X.png" alt="Exit Button"></i>
     </div>
@@ -123,14 +127,95 @@
                             <img src="images/growth500.png" alt="">
                         </div>
                     </div>
-            </section>
 
+                    <!-- <img class="mission-stripe" src="./images/mission-stripe.png" alt=""> -->
+            </section>
+            
+<section class="carousel">
+            <div class="glider-contain multiple">
+                <h1>OUR WORK</h1>
+
+                <button class="glider-prev">
+                    <img src="images/arrow-left.png" alt="Previous Arrow">
+                </button>
+
+                    <div class="glider">
+                        <figure>
+                            <blockquote>
+                                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/375274327?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></blockquote>
+                            <figcaption><img src="images/underdoglogo.png" alt=""></figcaption>
+                        </figure>
+
+                        <figure>
+                            <blockquote> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/272656472?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></blockquote>
+                            <figcaption><img src="images/Kubota_Logo_2015_CMYK(1).png" alt="Kubota logo"></figcaption>
+                        </figure>
+
+                        <figure>
+                            <blockquote><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/397026370?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></blockquote>
+                            <figcaption><img src="images/100.png" alt="Coors Organic Logo"></figcaption>
+                        </figure>
+
+                        <figure>
+                            <blockquote><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/399185703?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></blockquote>
+                            <figcaption>Video1</figcaption>
+                        </figure>
+
+                        <figure>
+                            <blockquote><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/375275447?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></blockquote>
+                            <figcaption>Video1</figcaption>
+                        </figure>
+                    </div>
+                    <button class="glider-next">
+                        <img src="images/arrow-right.png" alt="Next Arrow">
+                    </button>
+
+                    <div id="dots" class="glider-dots"></div>
+            </div>
+        </section>
             
         </div>
     </main>
 
     <script src="js/scripts.js" type="text/javascript"></script>
+    
+    <script src="js/glider.min.js" type="text/javascript"></script>
+    <script>
 
+new Glider(document.querySelector('.glider'), {
+  slidesToShow: 1,
+  dots: '#dots',
+  draggable: false,
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  },
+
+  responsive: [
+    {
+      // screens greater than >= 775px
+      breakpoint: 775,
+      settings: {
+        // Set to `auto` and provide item width to adjust to viewport
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        itemWidth: 150,
+        duration: 0.25
+      }
+    },{
+      // screens greater than >= 1024px
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        itemWidth: 150,
+        duration: 0.25
+      }
+    }
+  ]
+});
+
+    </script>
 
 
 </body>
