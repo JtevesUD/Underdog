@@ -1,0 +1,22 @@
+.quote-text {
+    margin: 10%;
+}
+
+
+.quote-text h1 {
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+@media screen and (min-device-width : 360px) and (max-device-width : 768px) {
+
+    .quote-text h1 {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+
+}
