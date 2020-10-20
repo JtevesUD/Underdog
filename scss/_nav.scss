@@ -7,7 +7,7 @@ a {
 .hamburger {
     position: fixed;
     top: 6rem;
-    right: 9rem;
+    right: 4rem;
     padding: .5rem;
     cursor: pointer;
     z-index: 2000;
@@ -39,7 +39,7 @@ header::before {
 
 
 .sidebar {
-    background-image: url(../images/Underdog_menubg.png) no-repeat;
+    background-image: url(images/Underdog_menubg.png) no-repeat;
     position: fixed;
     top: 0;
     left: 0;
