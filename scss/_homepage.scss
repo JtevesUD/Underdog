@@ -65,14 +65,14 @@
     display: flex;
     width: auto;
     position: absolute;
-    top: 9%;
+    top: 90vh;
     margin: auto;
 }
 
 .logo-group {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 71vw;
     justify-content: space-between;
     margin: 0 4%;
 }
@@ -146,7 +146,7 @@
         display: flex;
         width: auto;
         position: absolute;
-        top: 8.5%;
+        top: 87vh;
         margin: auto;
     }
 
@@ -188,4 +188,20 @@
 }
 
 //Ipad
-@media screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    .logos {
+        display: flex;
+        width: auto;
+        position: absolute;
+        top: 115vh;
+        margin: auto;
+    }
+
+    .mission-text h1 {
+        font-size: 18px;
+        margin: auto;
+        padding-bottom: 30px;
+        padding-top: 220px;
+    }
+}

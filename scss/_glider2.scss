@@ -67,6 +67,7 @@
 .glider2.draggable .glider2-slide img {
     user-select: none;
     pointer-events: none;
+
 }
 
 .glider2.drag {
@@ -181,7 +182,7 @@ blockquote {
 }
 
 .glider-slide2 img {
-    width: 40%;
+    width: 50%;
 }
 
 figcaption {
@@ -190,16 +191,17 @@ figcaption {
 }
 
 .left-1 {
-    opacity: .5;
+    opacity: .3;
 }
 
 .right-1 {
-    opacity: .5;
+    opacity: .3;
 }
 
-.teamimg img {
-    width: 40%;
+.ud {
+    width: 50% !important;
 }
+
 
 
 @media screen and (min-device-width : 360px) and (max-device-width : 768px) {
@@ -230,10 +232,16 @@ figcaption {
 
     .glider-contain2 h1 {
         font-size: 30px;
-        margin-top: 50px;
     }
 
     .glider-dots2 {
         display: none;
+    }
+
+    .glider2 {
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: none;
+        overflow-x: scroll;
     }
 }

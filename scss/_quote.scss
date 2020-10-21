@@ -1,5 +1,8 @@
 .quote-text {
     margin: 10%;
+    background-image: url(/images/Underdog_menubg.png) center;
+    background-size: 200px;
+
 }
 
 
@@ -8,6 +11,7 @@
     margin-top: 250px;
     margin-bottom: 50px;
     font-size: 40px;
+    font-family: 'Questrial', sans-serif;
 }
 
 @media screen and (min-device-width : 360px) and (max-device-width : 768px) {
@@ -17,6 +21,7 @@
         margin-top: 60px;
         margin-bottom: 50px;
         font-size: 20px;
+        font-family: 'Questrial', sans-serif;
     }
 
 }
