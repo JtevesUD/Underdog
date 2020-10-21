@@ -67,7 +67,7 @@
 .glider.draggable .glider-slide img {
     user-select: none;
     pointer-events: none;
-    width: 40%;
+    width: 15%;
 }
 
 .glider.drag {
@@ -86,6 +86,7 @@
 .glider-slide img {
     width: 15%;
     margin-top: 15px;
+    margin-bottom: -50px;
 }
 
 .glider::-webkit-scrollbar {
@@ -184,6 +185,11 @@ blockquote {
 figcaption {
     text-align: center;
     margin-bottom: 1em;
+}
+
+figcaption p {
+    padding-top: 5px;
+    font-size: 15px;
 }
 
 

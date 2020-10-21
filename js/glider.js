@@ -15,6 +15,8 @@ new Glider(document.querySelector('.glider'), {
           // Set to `auto` and provide item width to adjust to viewport
           slidesToShow: 1,
           slidesToScroll: 1,
+          draggable:true,
+          scrollLock:true,
           itemWidth: 150,
           duration: 0.25
         }
@@ -23,6 +25,8 @@ new Glider(document.querySelector('.glider'), {
         breakpoint: 1024,
         settings: {
           slidesToShow: 1,
+          draggable:true,
+          scrollLock:true,
           slidesToScroll: 1,
           itemWidth: 150,
           duration: 0.25
@@ -37,6 +41,7 @@ new Glider(document.querySelector('.glider'), {
     draggable: true,
     rewind:true,
     scrollLock:true,
+    scrollLockDelay:500,
     arrows: {
       prev: '.glider-prev2',
       next: '.glider-next2'
@@ -51,8 +56,9 @@ new Glider(document.querySelector('.glider'), {
           slidesToShow: 1,
           slidesToScroll: 1,
           itemWidth: 150,
-          duration: 0.25,
+          duration: 0.5,
           draggable:true,
+          scrollLock:true,
           rewind:true
         }
       },{
@@ -65,6 +71,7 @@ new Glider(document.querySelector('.glider'), {
           itemWidth: 50,
           duration: 0.50,
           Number: 0.5,
+          scrollLock:true,
           draggable:true
         }
       }

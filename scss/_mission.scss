@@ -29,6 +29,10 @@
     display: none;
 }
 
+.mission-stripe-mobile2 {
+    display: none;
+}
+
 .mission p {
     text-align: center;
     font-size: 26px;
@@ -40,6 +44,7 @@
 .underdoglogo {
     display: flex;
     margin: 50px auto;
+    padding: 50px 0;
 
 }
 
@@ -80,6 +85,14 @@
     .mission-stripe-mobile {
         margin: auto;
         display: flex;
+        padding-top: 40px;
+    }
+
+    .mission-stripe-mobile2 {
+        margin: auto;
+        display: flex;
+        padding-top: 15px;
+        margin-bottom: -50px;
     }
 
     .mission-stripe {
@@ -145,6 +158,13 @@
     .awards-images :nth-child(5) {
         width: 15%;
     }
+
+    .underdoglogo {
+        display: flex;
+        margin: auto;
+        padding: none;
+
+    }
 }
 
 //Ipad
@@ -155,6 +175,13 @@
         display: flex;
         margin: auto 0;
         width: 50%;
+    }
+
+    .mission-text h1 {
+        font-size: 18px;
+        margin: auto;
+        padding-bottom: 30px;
+        padding-top: 240px;
     }
 
 }
