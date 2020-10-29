@@ -12,17 +12,17 @@
 
 .mission h1 {
     text-align: center;
-    margin-top: 250px;
-    margin-bottom: 50px;
-    font-size: 40px;
+    margin-top: 167px;
+    margin-bottom: -30px;
+    font-size: 35px;
 }
 
 .mission-stripe {
     margin: auto;
     margin-top: auto;
     margin-bottom: auto;
-    margin-top: 150px;
-    margin-bottom: -120px;
+    margin-top: 80px;
+    margin-bottom: -60px;
 }
 
 .mission-stripe-mobile {
@@ -35,16 +35,16 @@
 
 .mission p {
     text-align: center;
-    font-size: 26px;
-    margin: 80px;
-    line-height: 1.5;
+    font-size: 23px;
+    margin: 7% 15% 5%;
+    line-height: 1.6;
     letter-spacing: 0.4px;
 }
 
 .underdoglogo {
     display: flex;
-    margin: 50px auto;
-    padding: 50px 0;
+    margin: 100px auto;
+    width: 4%;
 
 }
 
@@ -67,6 +67,7 @@
 
 .awards-images :nth-child(1) {
     width: 5%;
+    margin-left: 7%;
 }
 
 .awards-images :nth-child(2) {
@@ -140,7 +141,7 @@
     }
 
     .underdoglogo {
-        margin-bottom: 0;
+        margin-bottom: 50px;
         width: 10%;
         padding-bottom: 20px;
 
