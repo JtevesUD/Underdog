@@ -1,0 +1,233 @@
+.culture {
+    margin: auto;
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+}
+
+.culture-text {
+    margin: 200px auto 0 auto;
+    position: relative;
+}
+
+.underdogs {
+    display: flex;
+    font-size: 2vw;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 1;
+    border: 1px;
+    padding: 5px 20px;
+    box-shadow: 7px 17px 35px 0px #cbcbcb;
+    letter-spacing: 5px;
+}
+
+.culture-bio {
+    display: flex;
+    margin: 50px auto;
+}
+
+.underdog-text {
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.team-logo {
+    width: auto;
+    margin: auto;
+}
+
+.team-logo img {
+    margin-top: 40px;
+    width: 4vw;
+}
+
+.arrow {
+    width: auto;
+    margin: auto;
+}
+
+.arrow img {
+    margin-top: 90px;
+    width: 4vw;
+}
+
+.flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+
+.flex-grid-thirds .col {
+    width: 50vw;
+    text-align: center;
+}
+
+.flex-grid-thirds .col img {
+    width: 18vw;
+}
+
+.col-member {
+    margin-top: 50px;
+}
+
+// 
+
+
+
+// Iphone
+
+@media screen and (min-device-width : 360px) and (max-device-width : 768px) {
+    .culture {
+        margin: auto;
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .culture-text {
+        margin: 35% auto 0 auto;
+        position: relative;
+    }
+
+    .underdogs {
+        display: flex;
+        font-size: 1.4rem;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 1;
+        border: 1px;
+        padding: 5px 20px;
+        box-shadow: 7px 17px 35px 0px #cbcbcb;
+        letter-spacing: 1px;
+    }
+
+    .culture-bio {
+        display: flex;
+        margin: 30px auto;
+    }
+
+    .underdog-text {
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: 'Questrial', sans-serif;
+    }
+
+    .team-logo {
+        display: none;
+    }
+
+    .team-logo img {
+        display: none;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .arrow img {
+        display: none;
+    }
+
+    .flex-grid-thirds {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+
+    }
+
+    .flex-grid-thirds .col {
+        width: 50vw;
+        text-align: center;
+        margin: auto;
+    }
+
+    .flex-grid-thirds .col img {
+        width: 50vw;
+    }
+
+    .col-member {
+        margin-top: 50px;
+    }
+
+
+}
+
+// IPAD
+
+@media screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+    .culture {
+        margin: auto;
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .culture-text {
+        margin: 35% auto 0 auto;
+        position: relative;
+    }
+
+    .underdogs {
+        display: flex;
+        font-size: 3vw;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 1;
+        border: 1px;
+        padding: 5px 20px;
+        box-shadow: 7px 17px 35px 0px #cbcbcb;
+    }
+
+    .culture-bio {
+        display: flex;
+        margin: 60px auto;
+    }
+
+    .underdog-text {
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Questrial', sans-serif;
+    }
+
+    .team-logo {
+        width: auto;
+        margin: auto;
+    }
+
+    .team-logo img {
+        margin-top: 40px;
+        width: 60px;
+    }
+
+    .arrow {
+        width: auto;
+        margin: auto;
+    }
+
+    .arrow img {
+        margin-top: 90px;
+        width: 50px;
+    }
+
+    .flex-grid-thirds {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+    }
+
+    .flex-grid-thirds .col {
+        width: 50vw;
+        text-align: center;
+    }
+
+    .flex-grid-thirds .col img {
+        width: 18vw;
+    }
+
+}
