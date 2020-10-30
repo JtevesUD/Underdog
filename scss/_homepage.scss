@@ -30,8 +30,8 @@
 
 .stripe {
     position: absolute;
-    right: 102%;
-    top: 0%;
+    right: 105%;
+    top: 3%;
 }
 
 .text1 {
@@ -46,14 +46,15 @@
 }
 
 .text1 h1 {
-    font-size: 37px;
+    font-size: 44px;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 2px;
+    margin-bottom: 15px;
 }
 
 .text1 p {
-    font-size: 22px;
+    font-size: 28px;
     margin-top: 15px;
     font-weight: 300;
     font-family: 'Didact Gothic', sans-serif;
@@ -77,27 +78,27 @@
 }
 
 .logo-group img {
-    width: 8%;
+    width: 12%;
     height: auto;
     margin: auto;
     opacity: .8;
 }
 
-.logo-group :nth-child(3) {
-    width: 5.5%;
-}
+// .logo-group :nth-child(3) {
+//     width: 5.5%;
+// }
 
-.logo-group :nth-child(4) {
-    width: 5.5%;
-}
+// .logo-group :nth-child(4) {
+//     width: 5.5%;
+// }
 
-.logo-group :nth-child(5) {
-    width: 7%;
-}
+// .logo-group :nth-child(5) {
+//     width: 7%;
+// }
 
-.logo-group :nth-child(6) {
-    width: 5.5%;
-}
+// .logo-group :nth-child(6) {
+//     width: 5.5%;
+// }
 
 .player iframe {
     margin: auto;

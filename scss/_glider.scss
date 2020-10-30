@@ -12,10 +12,11 @@
 }
 
 .glider-contain h1 {
-    font-size: 5em;
-    font-weight: inherit;
+    font-size: 4em;
+    font-weight: normal;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
+    letter-spacing: 11px;
 }
 
 .glider,
@@ -223,4 +224,5 @@ figcaption p {
         margin-top: 50px;
         color: $underdog-grey;
     }
+
 }
