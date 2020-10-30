@@ -42,7 +42,7 @@ header::before {
     background-image: url(../images/Underdog_menubg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 10%;
+    background-size: 40%;
     position: fixed;
     top: 0;
     left: 0;
@@ -53,7 +53,8 @@ header::before {
     padding: 0;
     z-index: 1000;
     transform: translateX(-100%);
-    transition: transform .6s linear;
+    transition: transform .8s ease-in-out;
+    ;
     background-color: white;
     font-family: 'Questrial', sans-serif;
 
@@ -215,6 +216,7 @@ header .active::before {
 
     .sidebar {
         width: 100%;
+        background-size: 40%;
 
     }
 
@@ -237,7 +239,7 @@ header .active::before {
         transform-style: preserve-3d;
         transition: transform 0.6s cubic-bezier(0.95, 0.05, 0.795, 0.035);
         height: 100%;
-        background: url(../images/bgmobile.png) no-repeat;
+        background: none;
         background-size: 150% !important;
         background-position-x: -25% !important;
         background-position-y: 3.8%;
@@ -245,9 +247,15 @@ header .active::before {
 
 }
 
+@media screen and (min-device-width : 500px) and (max-device-width : 768px) {
+    .zoom-content {
+        background: none;
+    }
+}
+
 
 /*Iphone*/
-@media screen and (min-device-width : 360px) and (max-device-width : 768px) {
+@media screen and (min-device-width : 360px) and (max-device-width : 500px) {
     .nav-link {
         display: block;
         font-size: 2.3rem;
