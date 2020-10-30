@@ -42,6 +42,7 @@ header::before {
     background-image: url(../images/Underdog_menubg.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 10%;
     position: fixed;
     top: 0;
     left: 0;
@@ -140,7 +141,6 @@ main {
     background-position-y: 0%;
     background-position-x: 100%;
     background-size: 76vh;
-    background-attachment: fixed;
 
 }
 
