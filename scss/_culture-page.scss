@@ -71,8 +71,17 @@
     width: 18vw;
 }
 
-.col-member {
-    margin-top: 50px;
+.col-caryn svg {
+    width: 30vw;
+}
+
+.col-brendan svg {
+    width: 30vw;
+}
+
+.col-member svg {
+
+    width: 30vw;
 }
 
 // 
@@ -151,8 +160,14 @@
         width: 50vw;
     }
 
-    .col-member {
-        margin-top: 50px;
+    .col-caryn svg {
+        width: 50vw;
+        height: 80vw;
+    }
+
+    .col-brendan svg {
+        width: 50vw;
+        height: 80vw;
     }
 
 
@@ -229,5 +244,15 @@
     .flex-grid-thirds .col img {
         width: 18vw;
     }
+
+    .col-caryn svg {
+        width: 40vw;
+    }
+
+    .col-brendan svg {
+        width: 40vw;
+    }
+
+
 
 }
