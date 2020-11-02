@@ -16,8 +16,8 @@
     font-family: "Libre Baskerville", serif;
     font-weight: 1;
     border: 1px;
-    padding: 5px 20px;
-    box-shadow: 7px 17px 35px 0px #cbcbcb;
+    padding: 20px 93px;
+    box-shadow: 7px 7px 8px -3px #cbcbcb;
     letter-spacing: 5px;
 }
 
@@ -53,6 +53,7 @@
 .arrow img {
     margin-top: 90px;
     width: 4vw;
+    margin-bottom: 50px;
 }
 
 .flex-grid-thirds {
@@ -77,10 +78,11 @@
 
 .col-brendan svg {
     width: 30vw;
+
 }
 
 .col-member svg {
-
+    margin-top: 50px;
     width: 30vw;
 }
 
