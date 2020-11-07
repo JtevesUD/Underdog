@@ -63,9 +63,26 @@
     margin: auto;
 }
 
+.col-member h1 {
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
 .flex-grid-thirds .col {
     width: 50vw;
     text-align: center;
+}
+
+.flex-grid-thirds .col-member svg {
+    margin-bottom: 30px;
+}
+
+.flex-grid-thirds .col-caryn svg {
+    margin-bottom: 30px;
+}
+
+.flex-grid-thirds .col-brendan svg {
+    margin-bottom: 30px;
 }
 
 .flex-grid-thirds .col img {

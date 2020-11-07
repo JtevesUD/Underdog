@@ -41,7 +41,7 @@
 }
 
 .carousel {
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 .glider {
@@ -68,7 +68,8 @@
 .glider.draggable .glider-slide img {
     user-select: none;
     pointer-events: none;
-    width: 15%;
+    width: 6vw;
+    margin-top: 50px;
 }
 
 .glider.drag {
@@ -85,9 +86,10 @@
 }
 
 .glider-slide img {
-    width: 15%;
-    margin-top: 15px;
-    margin-bottom: -50px;
+
+    margin-top: 3vh;
+
+
 }
 
 .glider::-webkit-scrollbar {
@@ -177,10 +179,14 @@ figure {
 }
 
 blockquote {
-    padding: .5em;
+    padding: 7em;
     font-size: 1.3em;
     font-style: italic;
     text-align: center;
+    padding-bottom: 0;
+    margin-bottom: -80px;
+    margin-top: 3vh;
+
 }
 
 figcaption {
@@ -191,6 +197,10 @@ figcaption {
 figcaption p {
     padding-top: 5px;
     font-size: 15px;
+}
+
+figcaption svg {
+    width: 40px;
 }
 
 
@@ -221,7 +231,7 @@ figcaption p {
 
     .glider-contain h1 {
         font-size: 30px;
-        margin-top: 50px;
+        margin-top: -40px;
         color: $underdog-grey;
     }
 
