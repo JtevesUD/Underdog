@@ -1,6 +1,8 @@
 .container {
     height: 100vh;
-
+    // background: url(../images/BGnew.jpg) no-repeat;
+    // background-position: right;
+    // background-size: contain;
 
 }
 
@@ -160,7 +162,7 @@
         display: flex;
         width: auto;
         position: absolute;
-        top: 87vh;
+        top: 90vh;
         margin: auto;
     }
 
@@ -189,20 +191,24 @@
     .udlogo {
         display: none;
     }
+
+
 }
 
 //Ipad
-@media screen and (min-device-width : 500px) and (max-device-width : 1024px) {
+@media screen and (min-device-width : 500px) and (max-device-width : 1300px) {
 
     .container {
-        height: 74vh;
+        height: 100vh;
+        width: 100%;
+        background: none;
     }
 
     .logos {
         display: flex;
         width: auto;
         position: absolute;
-        top: 60vh;
+        top: 65v1;
         margin: auto;
     }
 
