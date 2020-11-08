@@ -1,10 +1,10 @@
-.container {
-    height: 100vh;
-    // background: url(../images/BGnew.jpg) no-repeat;
-    // background-position: right;
-    // background-size: contain;
+// .container {
+//     // height: 100vh;
+//     // background: url(../images/BGnew.jpg) no-repeat;
+//     // background-position: right;
+//     // background-size: contain;
 
-}
+// }
 
 .logo h1 {
     font-family: 'Libre Baskerville', serif;
@@ -41,12 +41,14 @@
 .text1 {
     display: flex;
     margin: auto;
-    position: absolute;
-    top: 32vh;
-    left: 15vw;
+    // position: absolute;
+    // top: 32vh;
+    // left: 15vw;
     flex-direction: column;
     line-height: 1;
     font-family: 'Blinker', sans-serif;
+    padding: 17% 10% 13% 10%;
+    width: 100%;
 }
 
 .text1 h1 {
@@ -68,17 +70,18 @@
 .logos {
     display: flex;
     width: auto;
-    position: absolute;
-    top: 90vh;
-    margin: auto;
+    //     position: absolute;
+    //     // top: 90vh;
+    //     margin: auto;
+    // 
 }
 
 .logo-group {
     display: flex;
     flex-direction: row;
-    width: 70vw;
+    width: 80vw;
     justify-content: space-between;
-    margin: 0 4%;
+    margin: 9% 23% 2% 7%;
 }
 
 .logo-group img {
@@ -86,6 +89,13 @@
     height: auto;
     margin: auto;
     opacity: .8;
+}
+
+.logos-box {
+    width: 100%;
+    // height: 100vh;
+    display: flex;
+    justify-content: left;
 }
 
 // .logo-group :nth-child(3) {
@@ -111,7 +121,6 @@
 .udlogo img {
     display: none;
 }
-
 
 
 
@@ -158,12 +167,16 @@
         display: none;
     }
 
+    .logos-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+    }
+
     .logos {
         display: flex;
         width: auto;
-        position: absolute;
-        top: 90vh;
-        margin: auto;
     }
 
     .logo-group {
@@ -172,6 +185,7 @@
         width: 100%;
         justify-content: space-between;
         margin: 0px 5%;
+        height: 191vh;
     }
 
     .logo-group img {
