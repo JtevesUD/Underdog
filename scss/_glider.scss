@@ -38,6 +38,8 @@
 .glider-contain h1 {
     text-align: center;
     color: $underdog-grey;
+    font-size: 2vw;
+    margin-top: 4vh;
 }
 
 .carousel {
@@ -142,7 +144,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    padding: 0
+    padding: 0;
+    display: none;
 }
 
 .glider-dot {
@@ -203,7 +206,10 @@ figcaption svg {
     width: 40px;
 }
 
-
+.underdog-glider-text h1 {
+    font-size: 6em;
+    margin-top: 20px;
+}
 
 @media screen and (min-device-width : 360px) and (max-device-width : 768px) {
     .glider::-webkit-scrollbar {
@@ -231,8 +237,22 @@ figcaption svg {
 
     .glider-contain h1 {
         font-size: 30px;
-        margin-top: -40px;
+        margin-top: -5vh;
         color: $underdog-grey;
     }
 
+    .glider-dots {
+        user-select: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
+    .glider-slide img {
+        margin-top: 9vh;
+        width: 8rem;
+    }
 }
