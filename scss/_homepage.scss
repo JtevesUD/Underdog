@@ -12,9 +12,7 @@
     font-weight: initial;
     letter-spacing: 6.5px;
     color: #707070;
-    position: absolute;
-    top: 7.9vh;
-    left: 13.5rem;
+    padding: 5% 0% 5% 10%;
 
 }
 
@@ -47,7 +45,7 @@
     flex-direction: column;
     line-height: 1;
     font-family: 'Blinker', sans-serif;
-    padding: 17% 10% 13% 10%;
+    padding: 4% 10% 9% 10%;
     width: 100%;
 }
 
@@ -81,7 +79,7 @@
     flex-direction: row;
     width: 80vw;
     justify-content: space-between;
-    margin: 9% 23% 2% 7%;
+    margin: 15% 23% 2% 7%;
 }
 
 .logo-group img {
@@ -125,7 +123,21 @@
 
 
 
+// imac
+@media screen and (min-width: 2560px) {
+    .logo-group {
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        justify-content: space-between;
+        margin: 9% 23% 2% 7%;
+    }
+}
 
+
+
+
+// 5% 23% 2% 7%;
 //Iphone
 @media screen and (min-device-width : 360px) and (max-device-width : 500px) {
     .logo h1 {
