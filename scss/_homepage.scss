@@ -30,11 +30,11 @@
 
 }
 
-.stripe {
-    position: absolute;
-    right: 105%;
-    top: 3%;
-}
+// .stripe {
+//     position: absolute;
+//     right: 105%;
+//     top: 3%;
+// }
 
 .text1 {
     display: flex;
@@ -45,7 +45,7 @@
     flex-direction: column;
     line-height: 1;
     font-family: 'Blinker', sans-serif;
-    padding: 4% 10% 9% 10%;
+    padding: 4% 10% 7% 10%;
     width: 100%;
 }
 
@@ -55,6 +55,7 @@
     font-weight: 400;
     letter-spacing: 2px;
     margin-bottom: 15px;
+    margin-top: 4vh;
 }
 
 .text1 p {
@@ -124,13 +125,22 @@
 
 
 // imac
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 2450px) {
     .logo-group {
         display: flex;
         flex-direction: row;
-        width: 80vw;
+        width: 89vw;
         justify-content: space-between;
-        margin: 9% 23% 2% 7%;
+        margin: 9% 23% 2% 6%;
+    }
+
+    .text1 h1 {
+        font-size: 2.7vw;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+        margin-top: 3vh;
     }
 }
 
@@ -141,12 +151,11 @@
 //Iphone
 @media screen and (min-device-width : 360px) and (max-device-width : 500px) {
     .logo h1 {
-        top: 4.5rem;
-        left: 2.5rem;
-    }
-
-    .head-text {
-        display: none;
+        font-size: 17px;
+        padding: 11vw;
+        float: left;
+        display: flex;
+        justify-content: center;
     }
 
     .text1 {

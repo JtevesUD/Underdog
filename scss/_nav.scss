@@ -39,7 +39,7 @@ header::before {
 
 
 .sidebar {
-    background-image: url(../images/Underdog_menubg.png);
+    // background-image: url(../images/Underdog_menubg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -49,12 +49,12 @@ header::before {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 0;
     z-index: 1000;
     transform: translateX(-100%);
     transition: transform .8s ease-in-out;
-    ;
     background-color: white;
     font-family: 'Questrial', sans-serif;
 
@@ -63,7 +63,8 @@ header::before {
 .nav-list {
     list-style: none;
     text-align: center;
-    margin: auto;
+    margin: auto auto 0;
+
 }
 
 .nav-item {
@@ -81,10 +82,10 @@ header::before {
 
 .nav-link {
     display: block;
-    font-size: 3.3rem;
+    font-size: 4.3rem;
     color: black;
     text-transform: uppercase;
-    line-height: 14rem;
+    line-height: 15rem;
     letter-spacing: 3px;
     transition: color .6s;
 }
@@ -104,11 +105,9 @@ header::before {
 
 .social-media {
     display: flex;
-    margin: 0 auto;
-    width: 25%;
-    position: absolute;
-    bottom: 30px;
-    left: 38%;
+    margin: auto;
+    width: 10%;
+    opacity: .9;
 }
 
 .icon-link {
@@ -166,6 +165,25 @@ header .active::before {
 
 }
 
+@media screen and (min-width: 2450px) {
+    .nav-link {
+        display: block;
+        font-size: 5.3rem;
+        color: black;
+        text-transform: uppercase;
+        line-height: 15rem;
+        letter-spacing: 3px;
+        transition: color .6s;
+    }
+
+    .zoom-content {
+        background-size: 89%;
+        background-position-x: right;
+
+
+    }
+}
+
 /*IPAD*/
 @media screen and (min-device-width : 768px) and (max-device-width : 1300px) {
     .nav-link {
@@ -188,15 +206,11 @@ header .active::before {
 
     }
 
-    .social-media {
-        width: auto;
-
-    }
 
     .nav-list {
-        line-height: 30px;
+        line-height: 15px;
         width: auto;
-        margin: 20% auto;
+        margin: auto auto 0;
     }
 
     .nav-item {
@@ -205,11 +219,9 @@ header .active::before {
 
     .social-media {
         display: flex;
-        margin: 0 auto;
-        width: 100%;
-        position: absolute;
-        bottom: 30px;
-        left: 0;
+        margin: auto;
+        width: 35%;
+        justify-content: center;
     }
 
     .sidebar {
@@ -249,6 +261,29 @@ header .active::before {
     .zoom-content {
         background: none;
     }
+
+    .nav-list {
+        line-height: 15px;
+        width: auto;
+        margin: auto auto 0;
+    }
+
+    .nav-item {
+        line-height: 1.5px;
+    }
+
+    .social-media {
+        display: flex;
+        margin: auto;
+        width: 35%;
+        justify-content: center;
+    }
+
+    .sidebar {
+        width: 100%;
+        background-size: 40%;
+
+    }
 }
 
 
@@ -275,15 +310,11 @@ header .active::before {
         width: 70%;
     }
 
-    .social-media {
-        width: auto;
-
-    }
 
     .nav-list {
         line-height: 15px;
         width: auto;
-        margin: auto;
+        margin: auto auto 0;
     }
 
     .nav-item {
@@ -292,11 +323,8 @@ header .active::before {
 
     .social-media {
         display: flex;
-        margin: 0 auto;
-        width: 100%;
-        position: absolute;
-        // bottom: 30px;
-        left: 0;
+        margin: auto;
+        width: 55%;
     }
 
     .sidebar {
