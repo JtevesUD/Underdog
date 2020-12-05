@@ -21,7 +21,8 @@
     margin: auto;
     margin-top: auto;
     margin-bottom: auto;
-    margin-top: 20vh;
+    margin-top: 10%;
+    width: 34%;
 
 }
 
@@ -86,7 +87,13 @@
     width: 9%;
 }
 
-
+//Imac
+@media screen and (min-width: 2450px) {
+    .mission-stripe {
+        margin: 17% auto auto;
+        width: 30%;
+    }
+}
 
 
 // Iphone
