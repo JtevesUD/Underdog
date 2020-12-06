@@ -1,8 +1,16 @@
+.culture-container {
+    width: 100%;
+    height: 110vh;
+}
+
+
 .culture {
     margin: auto;
     display: flex;
     width: 75%;
     flex-direction: column;
+    position: relative;
+    top: 190px;
 }
 
 .culture-text {
@@ -17,7 +25,6 @@
     font-weight: 1;
     border: 1px;
     padding: 20px 93px;
-    box-shadow: 7px 7px 8px -3px #cbcbcb;
     letter-spacing: 5px;
 }
 
@@ -103,13 +110,24 @@
     width: 30vw;
 }
 
-// 
+// imac
+
+@media screen and (min-width: 2450px) {
+    .culture-container {
+        position: relative;
+        top: 80px !important;
+    }
 
 
+}
 
 // Iphone
 
 @media screen and (min-device-width : 360px) and (max-device-width : 768px) {
+    .culture-container {
+        height: 80vh;
+    }
+
     .culture {
         margin: auto;
         display: flex;
@@ -118,7 +136,7 @@
     }
 
     .culture-text {
-        margin: 35% auto 0 auto;
+        margin: auto;
         position: relative;
     }
 
@@ -129,7 +147,6 @@
         font-weight: 1;
         border: 1px;
         padding: 5px 20px;
-        box-shadow: 7px 17px 35px 0px #cbcbcb;
         letter-spacing: 1px;
     }
 
