@@ -15,7 +15,7 @@
 
 }
 
-.contact-right {
+.contact-right-homepage {
     // border: solid 1px red;
     display: flex;
     width: 100%;
@@ -29,21 +29,23 @@
     width: 100%;
     height: 40%;
     font-size: 3vw;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     text-align: center;
 }
 
-.contact-title h1 {
+.contact-title-homepage h1 {
     position: relative;
     display: flex;
-    margin-left: 13.5%;
-    top: 45%;
-    width: 100%;
+    margin: auto;
+    top: 120%;
+    font-size: 40px;
+
+
 
 
 }
 
-.contact-form {
+.contact-form-homepage {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -53,13 +55,13 @@
 
 }
 
-.input-fields {
+.input-fields-homepage {
     display: flex;
     width: 100%;
     flex-direction: column;
 }
 
-.msg-home {
+.msg-homepage {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -67,11 +69,11 @@
     // margin: auto;
 }
 
-.message-text {
-    font-size: 1vw;
+.message-text-homepage {
+    font-size: auto;
     padding-bottom: 3%;
     font-family: 'Libre Baskerville', serif;
-    margin-top: 80px;
+    margin-top: 15px;
     color: $underdog-grey;
 }
 
@@ -88,23 +90,23 @@
     color: lightgray;
 }
 
-.input-fields .input {
+.input-fields-homepage .input {
     margin: 30px 0;
     background: transparent;
     border: 0;
     border-bottom: 2px solid #f0f0f0;
-    font-size: 3vh;
+    font-size: 2vh;
     font-family: 'Libre Baskerville', serif;
 
 }
 
-.msg-home textarea {
+.msg-homepage textarea {
     background: #f0f0f0;
     padding: 10%;
     border: 0;
 }
 
-.btn {
+.btn-homepage {
     background: transparent;
     text-align: center;
     padding: 15px;
@@ -116,7 +118,7 @@
     border: 2px solid $underdog-grey;
 }
 
-.maps {
+.maps-homepage {
     width: 100%;
     height: 50%;
     position: relative;
@@ -131,13 +133,13 @@
 
 }
 
-.text-area {
+.text-area-homepage {
     width: 50%;
     height: 80%;
     margin: auto;
 }
 
-.text-area h1 {
+.text-area-homepage h1 {
     margin: auto;
     line-height: 4.5;
     font-size: 29px;
@@ -167,94 +169,61 @@ iframe {
         width: 100%;
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
-    .contact-left {
-        border: none;
-        display: flex;
-        width: 100%;
-        height: 100%;
-        flex-direction: column;
+    // .contact-left-homepage {
+    //     // border: none;
+    //     // display: flex;
+    //     // width: 100%;
+    //     // height: 100%;
+    //     // flex-direction: column;
+    //     // text-align: center;
 
-    }
+    // }
 
     .contact-right {
         display: none;
-
-        .contact-title {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: 50%;
-            font-size: 3vw;
-            text-align: center;
-        }
-
-        .contact-title h1 {
-            position: relative;
-            display: flex;
-            margin-left: 15%;
-            top: 55%;
-            width: 25%;
-
-
-        }
-
-        .contact-form {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: 100px;
-            margin: 0 auto;
-            padding: 0% 11% 5% 14%;
-        }
-
-        .input-fields {
-            display: flex;
-            width: 100%;
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .msg {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: 10%;
-            margin: auto;
-        }
-
-        ::-webkit-input-placeholder {
-            color: lightgray;
-
-        }
-
-        ::-moz-input-placeholder {
-            color: lightgray;
-        }
-
-        ::-moz-input-placeholder {
-            color: lightgray;
-        }
-
-        .input-fields .input {
-            margin: 30px 0;
-            background: transparent;
-            border: 0;
-            border-bottom: 2px solid #f0f0f0;
-            font-size: 30px;
-            text-align: center;
-
-        }
-
-        .msg textarea {
-            background: #f0f0f0;
-            padding: 50px;
-        }
-
-        .btn {
-            margin: auto;
-            display: flex;
-        }
     }
+
+    // .contact-title-homepage {}
+
+    // .contact-title-homepage h1 {}
+
+    // .contact-form-homepage {}
+
+    // .input-fields-homepage {}
+
+    // .msg {}
+
+    .message-text-homepage {
+        text-align: center;
+
+    }
+
+    ::-webkit-input-placeholder {
+        color: lightgray;
+
+        text-align: center;
+    }
+
+    ::-moz-input-placeholder {
+        color: lightgray;
+    }
+
+    ::-moz-input-placeholder {
+        color: lightgray;
+
+    }
+
+    // .input-fields-homepage .input {}
+
+    // .msg textarea {}
+
+    .btn-homepage {
+        margin: 30px auto;
+        width: 50%;
+    }
+
+    // .btn-homepage p {}
 }

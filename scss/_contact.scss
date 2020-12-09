@@ -25,9 +25,9 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 40%;
+    height: 33%;
     font-size: 2vw;
-    margin-bottom: -120px;
+    margin-bottom: -100px;
 }
 
 .contact-title h1 {
@@ -67,7 +67,7 @@
     font-size: 1vw;
     padding-bottom: 3%;
     font-family: 'Libre Baskerville', serif;
-    margin-top: 80px;
+    margin-top: 50px;
     color: $underdog-grey;
 }
 
@@ -114,28 +114,28 @@
 
 .maps {
     width: 100%;
-    height: 50%;
+    height: 63%;
     position: relative;
     flex-direction: row;
 }
 
 .info-area {
     width: 100%;
-    height: 44%;
+    height: 30%;
     display: flex;
     margin: auto;
 
 }
 
 .text-area {
-    width: 50%;
-    height: 80%;
+    width: 60%;
+    height: 50%;
     margin: auto;
 }
 
 .text-area h1 {
     margin: auto;
-    line-height: 4.5;
+    line-height: 2.5;
     font-size: 29px;
 }
 
@@ -147,6 +147,7 @@
 iframe {
     display: flex;
     margin: auto;
+    width: 60%;
 }
 
 
@@ -157,103 +158,87 @@ iframe {
 
 
 
+
+@media screen and (min-width: 2450px) {
+    .maps {
+        height: 53%;
+    }
+
+    .text-area {
+        height: 40%;
+    }
+
+}
+
 @media screen and (min-device-width : 360px) and (max-device-width : 768px) {
 
+
     .contact-container {
-        // width: 100%;
-        // height: 100%;
-        // display: flex;
-        // flex-direction: column;
-        display: none;
-    }
-
-    .contact-left {
-        border: none;
+        max-width: 400px;
         display: flex;
-        width: 100%;
-        height: 100%;
         flex-direction: column;
-
-    }
-
-    .contact-right {
-        display: none;
-
+        margin: auto;
+        width: auto;
+        height: 20vh;
     }
 
     .contact-title {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-        font-size: 2vw;
-        margin-bottom: 0;
+        height: 20vh;
     }
 
     .contact-title h1 {
-        position: relative;
-        display: flex;
-        margin-left: 15%;
-        top: 55%;
-        width: 100%;
-
-
-    }
-
-    .contact-form {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 50%;
+        top: 0;
+        width: auto;
         margin: 0 auto;
-        padding: 0% 11% 5% 14%;
+        font-size: 30px;
     }
 
-    .input-fields {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
+
+
+    .message-text h1 {
+        font-size: 3vw;
         text-align: center;
     }
 
     .msg {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 10%;
-        margin: auto;
+        height: 100vh;
     }
 
-    ::-webkit-input-placeholder {
-        color: lightgray;
 
+
+    .input-fields {
+        margin-bottom: 200px;
     }
 
-    ::-moz-input-placeholder {
-        color: lightgray;
-    }
-
-    ::-moz-input-placeholder {
-        color: lightgray;
-    }
-
-    .input-fields .input {
-        margin: 30px 0;
-        background: transparent;
-        border: 0;
-        border-bottom: 2px solid #f0f0f0;
-        font-size: 30px;
 
 
-    }
+    // .contact-left {
+    //     // border: none;
+    //     // display: flex;
+    //     // width: 99%;
+    //     // height: 0;
+    //     // flex-direction: column;
+
+    // }
 
     .msg textarea {
-        background: #f0f0f0;
-        padding: 50px;
+        width: 100%;
+        height: 20vh;
+        padding: 20%;
+
+    }
+
+    .message-text {
+        margin-top: 30px;
+    }
+
+    .contact-right {
+        display: none;
     }
 
     .btn {
-        // display: flex;
-        margin: auto;
+        width: 50%;
+
+        margin: 30px auto;
     }
 }
