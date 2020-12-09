@@ -9,10 +9,41 @@
 .quote-text h1 {
     text-align: center;
     margin-top: 250px;
+    margin-bottom: -40px;
+    font-size: 60px;
+}
+
+.quote-text h2 {
+    text-align: center;
+    margin-top: 250px;
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Questrial', sans-serif;
 }
+
+
+
+// imac
+@media screen and (min-width: 2450px) {
+    .quote-text h1 {
+        text-align: center;
+        margin-top: 250px;
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+
+    .quote-text h2 {
+        text-align: center;
+        margin-top: 250px;
+        margin-bottom: 50px;
+        font-size: 60px;
+        font-family: 'Questrial', sans-serif;
+    }
+
+
+
+}
+
 
 @media screen and (min-device-width : 360px) and (max-device-width : 768px) {
 
