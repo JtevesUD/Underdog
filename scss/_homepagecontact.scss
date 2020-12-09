@@ -1,14 +1,16 @@
-.contact-container {
-    width: 100%;
+.contact-container-homepage {
+    width: 50%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin: auto;
+
 }
 
-.contact-left {
+.contact-left-homepage {
     border: none;
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
 
 }
@@ -21,13 +23,14 @@
     flex-direction: column;
 }
 
-.contact-title {
+.contact-title-homepage {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 40%;
-    font-size: 2vw;
-    margin-bottom: -120px;
+    font-size: 3vw;
+    margin-bottom: 20%;
+    text-align: center;
 }
 
 .contact-title h1 {
@@ -47,6 +50,7 @@
     height: 50%;
     margin: 0 auto;
     padding: 0% 11% 5% 14%;
+
 }
 
 .input-fields {
@@ -55,7 +59,7 @@
     flex-direction: column;
 }
 
-.msg {
+.msg-home {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -94,9 +98,9 @@
 
 }
 
-.msg textarea {
+.msg-home textarea {
     background: #f0f0f0;
-    padding: 130px;
+    padding: 10%;
     border: 0;
 }
 
@@ -159,12 +163,10 @@ iframe {
 
 @media screen and (min-device-width : 360px) and (max-device-width : 768px) {
 
-    .contact-container {
-        // width: 100%;
-        // height: 100%;
-        // display: flex;
-        // flex-direction: column;
-        display: none;
+    .contact-container-homepage {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     .contact-left {
@@ -179,81 +181,80 @@ iframe {
     .contact-right {
         display: none;
 
-    }
+        .contact-title {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 50%;
+            font-size: 3vw;
+            text-align: center;
+        }
 
-    .contact-title {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-        font-size: 2vw;
-        margin-bottom: 0;
-    }
-
-    .contact-title h1 {
-        position: relative;
-        display: flex;
-        margin-left: 15%;
-        top: 55%;
-        width: 100%;
+        .contact-title h1 {
+            position: relative;
+            display: flex;
+            margin-left: 15%;
+            top: 55%;
+            width: 25%;
 
 
-    }
+        }
 
-    .contact-form {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 50%;
-        margin: 0 auto;
-        padding: 0% 11% 5% 14%;
-    }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100px;
+            margin: 0 auto;
+            padding: 0% 11% 5% 14%;
+        }
 
-    .input-fields {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-    }
+        .input-fields {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            text-align: center;
+        }
 
-    .msg {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 10%;
-        margin: auto;
-    }
+        .msg {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 10%;
+            margin: auto;
+        }
 
-    ::-webkit-input-placeholder {
-        color: lightgray;
+        ::-webkit-input-placeholder {
+            color: lightgray;
 
-    }
+        }
 
-    ::-moz-input-placeholder {
-        color: lightgray;
-    }
+        ::-moz-input-placeholder {
+            color: lightgray;
+        }
 
-    ::-moz-input-placeholder {
-        color: lightgray;
-    }
+        ::-moz-input-placeholder {
+            color: lightgray;
+        }
 
-    .input-fields .input {
-        margin: 30px 0;
-        background: transparent;
-        border: 0;
-        border-bottom: 2px solid #f0f0f0;
-        font-size: 30px;
+        .input-fields .input {
+            margin: 30px 0;
+            background: transparent;
+            border: 0;
+            border-bottom: 2px solid #f0f0f0;
+            font-size: 30px;
+            text-align: center;
 
+        }
 
-    }
+        .msg textarea {
+            background: #f0f0f0;
+            padding: 50px;
+        }
 
-    .msg textarea {
-        background: #f0f0f0;
-        padding: 50px;
-    }
-
-    .btn {
-        // display: flex;
-        margin: auto;
+        .btn {
+            margin: auto;
+            display: flex;
+        }
     }
 }
