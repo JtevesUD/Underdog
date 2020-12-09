@@ -11,6 +11,8 @@
     margin-top: 250px;
     margin-bottom: -40px;
     font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
 }
 
 .quote-text h2 {
@@ -18,7 +20,9 @@
     margin-top: 250px;
     margin-bottom: 50px;
     font-size: 50px;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    ;
 }
 
 
@@ -30,6 +34,7 @@
         margin-top: 250px;
         margin-bottom: 50px;
         font-size: 60px;
+
     }
 
     .quote-text h2 {
@@ -37,7 +42,7 @@
         margin-top: 250px;
         margin-bottom: 50px;
         font-size: 60px;
-        font-family: 'Questrial', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 
 
@@ -52,7 +57,15 @@
         margin-top: 60px;
         margin-bottom: 50px;
         font-size: 20px;
-        font-family: 'Questrial', sans-serif;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .quote-text h2 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
     }
 
 }

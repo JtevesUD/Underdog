@@ -1,0 +1,386 @@
+.services-container {
+    // background-color: lightgray;
+    width: 86%;
+    height: 90vh;
+    margin: auto;
+}
+
+.services-text-container {
+    // background-color: red;
+    width: 80%;
+    margin: auto;
+    height: 50%;
+    position: relative;
+    top: 18%;
+}
+
+.services-text-container h1 {
+    text-align: center;
+    font-size: 3vw;
+    position: relative;
+    top: 10%;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 3px;
+
+}
+
+.services-text-container h2 {
+    text-align: center;
+    font-size: 2vw;
+    position: relative;
+    top: 30%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.whatwedo {
+    // background-color: green;
+    width: 80%;
+    height: 10%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    z-index: 1000;
+    top: 80%;
+}
+
+.whatwedo h1 {
+    text-align: center;
+    width: auto;
+    padding-top: 15px;
+    font-size: 50px;
+}
+
+.whatwedo-container {
+    // background-color: purple;
+    width: 86%;
+    height: 100%;
+    position: absolute;
+    left: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.service-box {
+    max-width: 27%;
+    padding: 8%;
+    text-align: center;
+
+}
+
+.service-icon {
+    display: inline-block;
+    width: 70%;
+    height: 70%;
+}
+
+.service-icon i {
+    line-height: 70px;
+    font-size: 26px;
+
+
+}
+
+.service-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-desc {
+    font-size: 14px;
+
+}
+
+.icon img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+//Imac
+@media screen and (min-width: 2450px) {
+    .services-container {
+        // background-color: orange;
+        width: 86%;
+        height: 90vh;
+        margin: auto;
+    }
+
+    .services-text-container {
+        // background-color: red;
+        width: 80%;
+        margin: auto;
+    }
+
+    .services-text-container h1 {
+        text-align: center;
+        font-size: 2vw;
+        position: relative;
+        top: 10%;
+    }
+
+    .services-text-container h2 {
+        text-align: center;
+        font-size: 2vw;
+        position: relative;
+        top: 25%;
+    }
+
+    .whatwedo {
+        // background-color: green;
+        width: 80%;
+        height: 10%;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        z-index: 1000;
+        top: 80%;
+    }
+
+    .whatwedo h1 {
+        text-align: center;
+        width: auto;
+        padding-top: 30px;
+        font-size: 50px;
+    }
+
+    .whatwedo-container {
+        // background-color: purple;
+        width: 86%;
+        height: 100%;
+        position: absolute;
+        left: 7%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .service-box {
+        max-width: 27%;
+        padding: 8%;
+        text-align: center;
+
+    }
+
+    .service-icon {
+        display: inline-block;
+        width: 70%;
+        height: 70%;
+    }
+
+    .service-icon i {
+        line-height: 70px;
+        font-size: 26px;
+
+
+    }
+
+    .service-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .service-desc {
+        font-size: 14px;
+
+    }
+
+    .icon img {
+        width: 100%;
+    }
+
+
+}
+
+//tablet
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .services-container {
+        // background-color: green;
+        width: 86%;
+        height: 100vh;
+        margin: auto;
+    }
+
+    .services-text-container {
+        // background-color: red;
+        width: 80%;
+        margin: auto;
+        position: relative;
+    }
+
+    .services-text-container h1 {
+        text-align: center;
+        font-size: 3vw;
+        position: relative;
+        top: 10%;
+    }
+
+    .services-text-container h2 {
+        text-align: center;
+        font-size: 2vw;
+        position: relative;
+        top: 20%;
+    }
+
+    .whatwedo {
+        // background-color: green;
+        width: 80%;
+        height: 10%;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        z-index: 1000;
+        top: 80%;
+    }
+
+    .whatwedo-container {
+        // background-color: 
+        width: 86%;
+        height: 100%;
+        position: absolute;
+        left: 7%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .service-box {
+        max-width: 50%;
+        padding: 8%;
+        text-align: center;
+
+    }
+
+    .service-icon {
+        display: inline-block;
+        width: 70%;
+        height: 70%;
+    }
+
+    .service-icon i {
+        line-height: 70px;
+        font-size: 26px;
+
+
+    }
+
+    .service-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .service-desc {
+        font-size: 14px;
+
+    }
+
+    .icon img {
+        width: 100%;
+    }
+}
+
+//Iphone
+@media screen and (min-device-width : 360px) and (max-device-width : 768px) {
+    .services-container {
+        // background-color: blue;
+        width: 86%;
+        height: 80vh;
+        margin: auto;
+    }
+
+    .services-text-container {
+        // background-color: red;
+        width: 86%;
+        margin: auto;
+    }
+
+    .services-text-container h1 {
+        text-align: center;
+        font-size: 4vw;
+        position: relative;
+        top: 10%;
+    }
+
+    .services-text-container h2 {
+        text-align: center;
+        font-size: 3vw;
+        position: relative;
+        top: 20%;
+    }
+
+    .whatwedo {
+        // background-color: green;
+        width: 80%;
+        height: 10%;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        z-index: 1000;
+        top: 80%;
+    }
+
+    .whatwedo h1 {
+        text-align: center;
+        width: auto;
+        padding-top: 14px;
+        font-size: 30px;
+    }
+
+    .whatwedo-container {
+        // background-color: purple;
+        width: 86%;
+        height: 100%;
+        position: absolute;
+        left: 7%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .service-box {
+        max-width: 60%;
+        padding: 8%;
+        text-align: center;
+
+    }
+
+    .service-icon {
+        display: inline-block;
+        width: 70%;
+        height: 70%;
+    }
+
+    .service-icon i {
+        line-height: 70px;
+        font-size: 26px;
+
+
+    }
+
+    .service-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .service-desc {
+        font-size: 14px;
+
+    }
+
+    .icon img {
+        width: 100%;
+    }
+}

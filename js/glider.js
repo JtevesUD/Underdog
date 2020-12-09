@@ -24,12 +24,12 @@ new Glider(document.querySelector('.glider'), {
         // screens greater than >= 1024px
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           draggable:true,
           scrollLock:true,
           slidesToScroll: 1,
           itemWidth: 150,
-          duration: 0.25
+          duration: 0.5
         }
       }
     ]
