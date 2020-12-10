@@ -1,5 +1,5 @@
 .quote-text {
-    margin: 10%;
+    margin: 10% 10% 0 10%;
     background-image: url(/images/Underdog_menubg.png) center;
     background-size: 200px;
 
@@ -10,9 +10,11 @@
     text-align: center;
     margin-top: 250px;
     margin-bottom: -40px;
-    font-size: 60px;
+    font-size: 45px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #707070;
 }
 
 .quote-text h2 {

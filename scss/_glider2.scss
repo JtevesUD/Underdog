@@ -1,5 +1,13 @@
 //THIS IS TEAM GLIDER
-
+.our-team {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #707070;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 200px;
+}
 
 .glider2,
 .glider-contain2 {
@@ -15,11 +23,15 @@
 }
 
 .glider-contain2 h1 {
-    font-size: 5em;
+    font-size: 45px;
     font-weight: inherit;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    margin-top: 65px;
+    margin-top: 70px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #707070;
+    text-transform: uppercase;
 }
 
 .glider2,
@@ -132,7 +144,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    padding: 0
+    padding: 0;
+    display: none;
 }
 
 .glider-dot2 {
@@ -178,6 +191,14 @@ blockquote {
 
 .glider-slide2 img {
     width: 50%;
+}
+
+.glider-slide {
+    user-select: none;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    min-width: 150px
 }
 
 figcaption {
