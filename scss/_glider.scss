@@ -38,8 +38,11 @@
 .glider-contain h1 {
     text-align: center;
     color: $underdog-grey;
-    font-size: 2vw;
+    font-size: 60px;
     margin-top: 4vh;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #707070;
 }
 
 .carousel {
@@ -187,7 +190,7 @@ blockquote {
     font-style: italic;
     text-align: center;
     padding-bottom: 0;
-    margin-bottom: -80px;
+    margin-bottom: -50px;
     margin-top: 3vh;
     font-family: 'Raleway', sans-serif;
 
