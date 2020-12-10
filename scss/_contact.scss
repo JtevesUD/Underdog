@@ -36,6 +36,8 @@
     margin-left: 13.5%;
     top: 45%;
     width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 
 
 }
@@ -66,10 +68,16 @@
 .message-text {
     font-size: 1vw;
     padding-bottom: 3%;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
     margin-top: 50px;
     color: $underdog-grey;
 }
+
+.message-text h1 {
+    font-weight: 300;
+}
+
+
 
 ::-webkit-input-placeholder {
     color: lightgray;
@@ -90,7 +98,8 @@
     border: 0;
     border-bottom: 2px solid #f0f0f0;
     font-size: 3vh;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 
 }
 
@@ -136,7 +145,10 @@
 .text-area h1 {
     margin: auto;
     line-height: 2.5;
-    font-size: 29px;
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 // .address img {
@@ -196,7 +208,7 @@ iframe {
 
 
     .message-text h1 {
-        font-size: 3vw;
+        font-size: 1vw;
         text-align: center;
     }
 

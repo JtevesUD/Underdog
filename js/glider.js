@@ -28,8 +28,10 @@ new Glider(document.querySelector('.glider'), {
           draggable:true,
           scrollLock:true,
           slidesToScroll: 1,
-          itemWidth: 150,
-          duration: 0.5
+          itemWidth: 750,
+          duration: 3,
+          resizeLock: false
+        
         }
       }
     ]

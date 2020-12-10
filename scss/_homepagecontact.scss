@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     margin: auto;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -28,9 +29,8 @@
     flex-direction: column;
     width: 100%;
     height: 40%;
-    font-size: 3vw;
     margin-bottom: 10%;
-    text-align: center;
+
 }
 
 .contact-title-homepage h1 {
@@ -38,7 +38,9 @@
     display: flex;
     margin: auto;
     top: 120%;
-    font-size: 40px;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 
 
 
@@ -59,6 +61,7 @@
     display: flex;
     width: 100%;
     flex-direction: column;
+    font-family: 'Raleway', sans-serif;
 }
 
 .msg-homepage {
@@ -72,9 +75,11 @@
 .message-text-homepage {
     font-size: auto;
     padding-bottom: 3%;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
     margin-top: 15px;
+    margin-bottom: 15px;
     color: $underdog-grey;
+
 }
 
 ::-webkit-input-placeholder {
@@ -96,7 +101,8 @@
     border: 0;
     border-bottom: 2px solid #f0f0f0;
     font-size: 2vh;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+
 
 }
 
@@ -169,7 +175,13 @@ iframe {
         width: 100%;
         display: flex;
         flex-direction: column;
+        font-family: 'Raleway', sans-serif;
         text-align: center;
+    }
+
+
+    .contact-title-homepage h1 {
+        font-size: 45px;
     }
 
     // .contact-left-homepage {
@@ -198,7 +210,7 @@ iframe {
 
     .message-text-homepage {
         text-align: center;
-
+        font-family: 'Raleway', sans-serif;
     }
 
     ::-webkit-input-placeholder {
@@ -223,6 +235,7 @@ iframe {
     .btn-homepage {
         margin: 30px auto;
         width: 50%;
+        font-family: 'Raleway', sans-serif;
     }
 
     // .btn-homepage p {}
