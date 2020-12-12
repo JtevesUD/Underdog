@@ -1,7 +1,7 @@
 .services-container {
     // background-color: lightgray;
     width: 86%;
-    height: 90vh;
+    height: 100vh;
     margin: auto;
 }
 
@@ -9,9 +9,10 @@
     // background-color: red;
     width: 80%;
     margin: auto;
-    height: 50%;
+    height: 90%;
     position: relative;
     top: 18%;
+    margin-top: -100px;
 }
 
 .services-text-container h1 {
@@ -31,49 +32,58 @@
     top: 30%;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
+    line-height: 1.5;
 }
 
 .whatwedo {
     // background-color: green;
     width: 80%;
     height: 10%;
-    position: absolute;
-    left: 10%;
-    right: 10%;
+    // position: absolute;
+    // left: 10%;
+    // right: 10%;
     z-index: 1000;
+    font-size: 60px;
     top: 80%;
+
 }
 
 .whatwedo h1 {
     text-align: center;
     width: auto;
-    padding-top: 15px;
-    font-size: 50px;
+    padding-top: 25px;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding-bottom: 150px;
 }
 
 .whatwedo-container {
     // background-color: purple;
     width: 86%;
-    height: 100%;
-    position: absolute;
-    left: 7%;
+    height: 50%;
+    // position: absolute;
+    // left: 7%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 4% 8% 0% 8%;
+    margin: auto;
 
 }
 
 .service-box {
-    max-width: 27%;
-    padding: 8%;
+    max-width: 33.33%;
+    padding: 5% 8%;
     text-align: center;
+    margin: auto;
+
 
 }
 
 .service-icon {
     display: inline-block;
-    width: 70%;
-    height: 70%;
+
 }
 
 .service-icon i {
@@ -84,12 +94,18 @@
 }
 
 .service-title {
-    font-size: 20px;
+    font-size: 45px;
     margin-bottom: 10px;
+    font-family: 'baskerville';
+    padding-top: 50px;
+    font-weight: 500x;
 }
 
 .service-desc {
     font-size: 14px;
+    font-family: 'Raleway';
+    padding-top: 10px;
+    line-height: 1.8;
 
 }
 
@@ -112,7 +128,7 @@
     .services-container {
         // background-color: orange;
         width: 86%;
-        height: 90vh;
+        height: 100vh;
         margin: auto;
     }
 
@@ -134,49 +150,60 @@
         font-size: 2vw;
         position: relative;
         top: 25%;
+        line-height: 1.5;
     }
 
     .whatwedo {
         // background-color: green;
         width: 80%;
-        height: 10%;
-        position: absolute;
-        left: 10%;
-        right: 10%;
+        height: 60%;
+        // position: absolute;
+        // left: 10%;
+        // right: 10%;
         z-index: 1000;
         top: 80%;
+        -webkit-animation: moving 5s infinite;
+        animation: moving 5s infinite;
+        animation-iteration-count: 1;
+
     }
+
 
     .whatwedo h1 {
         text-align: center;
         width: auto;
         padding-top: 30px;
-        font-size: 50px;
+        font-size: 90px;
+        padding-bottom: 150px;
     }
+
+
 
     .whatwedo-container {
         // background-color: purple;
         width: 86%;
-        height: 100%;
+        height: 50%;
         position: absolute;
         left: 7%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: -100px;
+        padding: 4% 8% 0% 8%;
+
 
     }
 
     .service-box {
-        max-width: 27%;
-        padding: 8%;
+        max-width: 33.33%;
+        padding: 5% 8%;
         text-align: center;
+        margin: auto;
 
     }
 
     .service-icon {
         display: inline-block;
-        width: 70%;
-        height: 70%;
     }
 
     .service-icon i {
@@ -187,17 +214,20 @@
     }
 
     .service-title {
-        font-size: 20px;
+        font-size: 45px;
         margin-bottom: 10px;
+        font-weight: 100;
+
     }
 
     .service-desc {
         font-size: 14px;
+        line-height: 1.8;
 
     }
 
     .icon img {
-        width: 100%;
+        width: 200px;
     }
 
 
@@ -237,7 +267,7 @@
         // background-color: green;
         width: 80%;
         height: 10%;
-        position: absolute;
+        // position: absolute;
         left: 10%;
         right: 10%;
         z-index: 1000;
@@ -248,7 +278,7 @@
         // background-color: 
         width: 86%;
         height: 100%;
-        position: absolute;
+        // position: absolute;
         left: 7%;
         display: flex;
         flex-wrap: wrap;
@@ -265,8 +295,6 @@
 
     .service-icon {
         display: inline-block;
-        width: 70%;
-        height: 70%;
     }
 
     .service-icon i {
@@ -287,7 +315,7 @@
     }
 
     .icon img {
-        width: 100%;
+        width: 150px;
     }
 }
 
@@ -296,8 +324,9 @@
     .services-container {
         // background-color: blue;
         width: 86%;
-        height: 80vh;
+        height: 50vh;
         margin: auto;
+        padding-top: 50px;
     }
 
     .services-text-container {
@@ -324,9 +353,9 @@
         // background-color: green;
         width: 80%;
         height: 10%;
-        position: absolute;
-        left: 10%;
-        right: 10%;
+        // position: absolute;
+        // left: 10%;
+        // right: 10%;
         z-index: 1000;
         top: 80%;
     }
@@ -341,26 +370,28 @@
     .whatwedo-container {
         // background-color: purple;
         width: 86%;
-        height: 100%;
+        height: 350%;
         position: absolute;
         left: 7%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
 
+
     }
 
     .service-box {
-        max-width: 60%;
-        padding: 8%;
+        max-width: 100%;
+        padding: 5%;
         text-align: center;
+        margin-bottom: 40px;
+
 
     }
 
     .service-icon {
         display: inline-block;
-        width: 70%;
-        height: 70%;
+
     }
 
     .service-icon i {
@@ -371,8 +402,9 @@
     }
 
     .service-title {
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 10px;
+        padding-top: 0;
     }
 
     .service-desc {
@@ -381,6 +413,6 @@
     }
 
     .icon img {
-        width: 100%;
+        width: 150px;
     }
 }
