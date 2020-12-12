@@ -52,7 +52,7 @@
     text-align: center;
     width: auto;
     padding-top: 25px;
-    font-size: 60px;
+    font-size: 90px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     padding-bottom: 150px;
@@ -113,8 +113,103 @@
     width: 100%;
 }
 
+.how-container {
+    width: 85%;
+    margin: auto;
+    height: 40vh;
+    display: flex;
+}
+
+.how-container h1 {
+    display: flex;
+    margin: auto;
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+
+.method-container {
+    width: 86%;
+    margin: auto;
+
+    display: flex;
+}
+
+.method-box {
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.method-image {
+    width: 80%;
+}
+
+.method-container img {
+    display: flex;
+    width: 50%;
+}
+
+.method-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+
+}
+
+.method-image {
+    width: 80%;
+}
+
+.method-container img {
+    display: flex;
+    width: 50%;
+}
+
+.method-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 70px;
 
 
+}
+
+.method-text h1 {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+
+}
+
+.method-text p {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    text-justify: distribute;
+
+}
+
+.method-text h1 {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+
+}
+
+.method-text p {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    text-justify: distribute;
+
+}
 
 
 
@@ -154,12 +249,9 @@
     }
 
     .whatwedo {
-        // background-color: green;
         width: 80%;
         height: 60%;
-        // position: absolute;
-        // left: 10%;
-        // right: 10%;
+
         z-index: 1000;
         top: 80%;
         -webkit-animation: moving 5s infinite;
@@ -181,10 +273,8 @@
 
     .whatwedo-container {
         // background-color: purple;
-        width: 86%;
+        width: 84%;
         height: 50%;
-        position: absolute;
-        left: 7%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -198,7 +288,6 @@
         max-width: 33.33%;
         padding: 5% 8%;
         text-align: center;
-        margin: auto;
 
     }
 
@@ -230,6 +319,28 @@
         width: 200px;
     }
 
+    .how-container {
+        width: 85%;
+        margin: auto;
+        height: 40vh;
+        display: flex;
+    }
+
+    .how-container h1 {
+        display: flex;
+        margin: auto;
+        font-size: 90px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .method-box {
+        width: 56%;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: row;
+    }
 
 }
 
@@ -279,7 +390,7 @@
         width: 86%;
         height: 100%;
         // position: absolute;
-        left: 7%;
+        // left: 7%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -317,36 +428,137 @@
     .icon img {
         width: 150px;
     }
+
+    .how-container {
+        width: 85%;
+        margin: auto;
+        height: 40vh;
+        display: flex;
+    }
+
+    .how-container h1 {
+        display: flex;
+        margin: auto;
+        font-size: 90px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-weight: 300;
+    }
+
+
+    .method-container {
+        width: 86%;
+        margin: auto;
+
+        display: flex;
+    }
+
+    .method-box {
+        width: 86%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .method-image {
+        width: 80%;
+    }
+
+    .method-container img {
+        display: flex;
+        width: 50%;
+    }
+
+    .method-text {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+
+    }
+
+    .method-image {
+        width: 80%;
+    }
+
+    .method-container img {
+        display: flex;
+        width: 50%;
+    }
+
+    .method-text {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 70px;
+
+
+    }
+
+    .method-text h1 {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        font-size: 90px;
+
+    }
+
+    .method-text p {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        text-justify: distribute;
+
+    }
+
+    .method-text h1 {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        font-size: 90px;
+
+    }
+
+    .method-text p {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        text-justify: distribute;
+
+    }
 }
 
 //Iphone
 @media screen and (min-device-width : 360px) and (max-device-width : 768px) {
     .services-container {
-        // background-color: blue;
         width: 86%;
-        height: 50vh;
+        height: 40vh;
         margin: auto;
-        padding-top: 50px;
+        padding-top: 110px;
     }
 
     .services-text-container {
-        // background-color: red;
         width: 86%;
         margin: auto;
     }
 
     .services-text-container h1 {
         text-align: center;
-        font-size: 4vw;
+        font-size: 7vw;
         position: relative;
         top: 10%;
+        padding-bottom: 20px;
+
+        ;
     }
 
     .services-text-container h2 {
-        text-align: center;
+
         font-size: 3vw;
         position: relative;
         top: 20%;
+
     }
 
     .whatwedo {
@@ -368,11 +580,8 @@
     }
 
     .whatwedo-container {
-        // background-color: purple;
         width: 86%;
         height: 350%;
-        position: absolute;
-        left: 7%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -415,4 +624,108 @@
     .icon img {
         width: 150px;
     }
+
+    .how-container {
+        width: 85%;
+        margin: auto;
+        height: 40vh;
+        background-color: none;
+        display: flex;
+    }
+
+    .how-container h1 {
+        display: flex;
+        margin: auto;
+        font-size: 50px;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-weight: 300;
+    }
+
+
+    .method-container {
+        width: 86%;
+        margin: auto;
+
+        display: flex;
+    }
+
+    .method-box {
+        width: 86%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .method-image {
+        width: 80%;
+    }
+
+    .method-container img {
+        display: flex;
+        width: 50%;
+    }
+
+    .method-text {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+
+    }
+
+    .method-image {
+        width: 80%;
+    }
+
+    .method-container img {
+        display: flex;
+        width: 50%;
+    }
+
+    .method-text {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 70px;
+
+
+    }
+
+    .method-text h1 {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 30px;
+
+    }
+
+    .method-text p {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        text-justify: distribute;
+
+    }
+
+    .method-text h1 {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        font-size: 90px;
+
+    }
+
+    .method-text p {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        text-justify: distribute;
+
+    }
+
+
 }
