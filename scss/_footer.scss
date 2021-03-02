@@ -1,16 +1,34 @@
-footer h1 {
-    text-align: center;
+footer{
+    width: 100%;
+    height: 5vh;
+    background:#f0f0f0;
+}
+
+.footer-bar{
+    display: flex;
+    height: 100%;
+}
+
+.footer-text p{
     margin: auto;
 }
 
-.footer-text {
+.footer-text{
     margin: auto;
-    text-align: center;
-    padding: 10px;
-    background: lightgrey;
+    font-size: 1.5em;
 }
 
-.footer-text h1 {
-    text-align: center;
-    margin: auto;
+@media screen and (min-width: 2450px) {
+    .footer-text {
+        font-size: 2em;
+    }
 }
+
+@media screen and (min-device-width : 360px) and (max-device-width : 500px) {
+
+        .footer-text{
+            font-size: 1em;
+        }
+}
+
+
